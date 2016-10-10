@@ -1,0 +1,200 @@
+[{
+    "id": "vp_city_hcm",
+    "value": "HCM",
+    "name": "Hồ Chí Minh",
+    "manager": {
+        "fullname": "Phạm Na",
+        "email": "info@aothundep.com",
+        "phone": "0965 551 552"
+    },
+    "employees": [{
+        "id": "Trinh",
+        "name": "01 - Trinh",
+        "email": "hcm01@aothundep.com",
+        "phone": "0901 851 801",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/14sjgr9zV9-NDi2ymUa47d-Jsi3Z8oNraAzjILUXpyY0/viewform"
+    },
+    {
+        "id": "Huy",
+        "name": "02 - Huy",
+        "email": "hcm02@aothundep.com",
+        "phone": "0901 851 802",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1w_1p84vfF368hIa_zZFGp-FQkkXYS4ypOthCANWEiWU/viewform"
+    },
+    {
+        "id": "Anh Tuấn",
+        "name": "03 - Tuấn",
+        "email": "hcm03@aothundep.com",
+        "phone": "0901 851 803",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1IxqWVuqCC10o2LYaV-EmvRDkcyfXP64QSo-vmjzIZKY/viewform"
+    },
+    {
+        "id": "Ánh Diên",
+        "name": "04 - Ánh Diên",
+        "email": "hcm04@aothundep.com",
+        "phone": "0901 851 804",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1lvmZOUJsmBH1j_aOehFxRCaE7Bkaf9igF_xx-omOsyg/viewform"
+    },
+    {
+        "id": "Oanh",
+        "name": "05 - Oanh",
+        "email": "hcm05@aothundep.com",
+        "phone": "0901 851 805",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1l7VUXg0Zx8buwu5osH3TdXT6V9UbfRdusDg_Ln2C8fY/viewform"
+    },
+    {
+        "id": "Đệ",
+        "name": "06 - Đệ",
+        "email": "hcm06@aothundep.com",
+        "phone": "0901 851 806",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/13-lNDzgFv6pvoBE4Xw9pUbLnGLOKOAMSUY2v2rVwayI/viewform"
+    },
+    {
+        "id": "Duyên",
+        "name": "07 - Duyên",
+        "email": "hcm07@aothundep.com",
+        "phone": "0901 851 807",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1ekdgqGSPJHFQxduUjzJZQS2_KNKgwzxBEFmusFXFuqk/viewform"
+    },
+    {
+        "id": "Vy",
+        "name": "08 - Vy",
+        "email": "hcm08@aothundep.com",
+        "phone": "0901 851 808",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1x-3TyqzUFlTx3KpUppvpz8tqaalYXOgPyIHwiuEbsaw/viewform"
+    },
+    {
+        "id": "Ngọc Trinh",
+        "name": "09 - Trinh",
+        "email": "hcm09@aothundep.com",
+        "phone": "0901 851 809",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/17UralHrgBYQj1PSYWFgHfqw4bC-9wWDzmi9lpDZC8G4/viewform"
+    },
+    {
+        "id": "Tiên",
+        "name": "10 - Tiên",
+        "email": "hcm10@aothundep.com",
+        "phone": "090 248 1810",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/18h-jTk3KstwEwLPwE24edc1e9cufHaDPIqq0HuXqAvs/viewform"
+    },
+    {
+        "id": "Hoàng",
+        "name": "11 - Hoàng",
+        "email": "hcm11@aothundep.com",
+        "phone": "0901 891 811",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1WioZkwsyx5fRhesqHiQAOorGH0iG66suq-ji_eSWzb0/viewform"
+    },
+    {
+        "id": "Nhi",
+        "name": "12 - Nhi",
+        "email": "hcm12@aothundep.com",
+        "phone": "090 248 1812",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/e/1FAIpQLSdzqkyaNjtaEqw9_kPBqGn-PhO8p_h4Y9DPnbbfxNHbhDnTVg/viewform"
+    },
+    {
+        "id": "HCM14",
+        "name": "14 -",
+        "email": "dp1@congtydongphuc.com",
+        "phone": "0901.85.1802",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1DTVw6Ea6gpKOK4XFHm-Dy1EPzUEOUsrg64B2QN_aVtM/viewform"
+    },
+    {
+        "id": "HCM15",
+        "name": "15 -",
+        "email": "dp2@congtydongphuc.com",
+        "phone": "0901.85.1802",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1yEsmJ6i1yHjFnP2PIPxw5rQrQHaqUHc3vvYPEccTUx0/viewform"
+    },
+    {
+        "id": "HCM16",
+        "name": "16-",
+        "email": "dp3@congtydongphuc.com",
+        "phone": "0901.85.1802",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1X7vn5GAhHr2epznJ0NrytuRPr3qf-_pPeqoJc6Oj9Jo/viewform"
+    },
+    {
+        "id": "HCM17",
+        "name": "17-",
+        "email": "dp4@congtydongphuc.com",
+        "phone": "0901.85.1802",
+        "google_form_url": ""
+    },
+    {
+        "id": "HCM18",
+        "name": "18-",
+        "email": "dp5@congtydongphuc.com",
+        "phone": "0901.891.811",
+        "google_form_url": ""
+    }]  
+},{
+    "id": "vp_city_hn",
+    "value": "HN",
+    "name": "Hà Nội",
+    "manager": {
+        "fullname": "Mai Thanh",
+        "email": "hanoi@aothundep.com",
+        "phone": "093 456 1727"
+    },
+    "employees": [{
+	"id" : "Ms Nghĩa",
+    "name" : "01 - Nghĩa",
+    "email" : "hanoi01@aothundep.com",
+    "phone" : "0903 256 162",
+    "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1temjT5VadrAvX9_8ove880Gi4PF80_AdrJMdolrXZOU/viewform"
+    },
+    {
+	"id" : "Ms Tựu",
+    "name" : "03 - Tựu",
+    "email" : "hanoi03@aothundep.com",
+    "phone" : "093 444 3135",
+    "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1SKN6Jzhic5i6uib0V4RXchRYEpyDSKRXGU9pBI_VyrM/viewform"
+     }]
+},{
+    "id": "vp_city_bmt",
+    "value": "BMT",
+    "name": "BMT",
+    "manager": {
+        "fullname": "Phạm Na",
+        "email": "info@aothundep.com",
+        "phone": "0965 551 552"
+    },
+    "employees": [{
+        "id": "Tuấn",
+        "name": "01 - Tuấn",
+        "email": "buonmethuot@aothundep.com",
+        "phone": "0977 27 77 99",
+        "google_form_url": ""
+    },
+    {
+        "id": "Tuấn",
+        "name": "02 - Tuấn",
+        "email": "buonmethuot@aothundep.com",
+        "phone": "0977 27 77 99",
+        "google_form_url": ""
+    }]
+    
+    
+},{
+    "id": "vp_city_bd",
+    "value": "BD",
+    "name": "BD",
+    "manager": {
+        "fullname": "Phạm Na",
+        "email": "info@aothundep.com",
+        "phone": "0965 551 552"
+    },
+    "employees": [{
+        "id": "Nam",
+        "name": "01 - Nam",
+        "email": "binhduong@aothundep.com",
+        "phone": "0948 636 881",
+        "google_form_url": ""
+    },
+    {
+        "id": "Nam",
+        "name": "02 - Nam",
+        "email": "binhduong@aothundep.com",
+        "phone": "0948 636 881",
+        "google_form_url": ""
+    }]
+}]

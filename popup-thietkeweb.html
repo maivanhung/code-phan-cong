@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<STYLE type='text/css'>
+.submit, .disabled{
+    background: #ff3366;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 22px;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    cursor: pointer;
+    background-size: 32px 32px;
+    outline: none;
+    font-family: helvetica, arial, sans-serif;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-background-clip: 0 3px 3px 0;
+    -moz-background-clip: 0 3px 3px 0;
+    -khtml-border-radius: 0 3px 3px 0;
+    -webkit-appearance: none;
+</STYLE>
+
+</head>
+<body style="font-family:arial;text-align: center;color:white;">
+
+
+<div style="text-align: center;width:92%;">
+<h2 style="border-bottom-color: rgb(255, 255, 255); border-bottom-style: solid; border-bottom-width: 1px; font-size: 150%;font-weight: bold; line-height: 30px; margin: 0px 0px 23px; padding: 0px 0px 21px; text-shadow: rgba(0, 0, 0, 0.2) 0px 1px; text-transform: uppercase;">NHẬN BÁO GIÁ - SAU 5 PHÚT</h2>
+<div style="color: white; font-style: italic; line-height: 20px; margin-bottom: 33px; padding: 0px;">
+
+<div id="banggia"><form  accept-charset="UTF-8" action="https://madmimi.com/signups/subscribe/183975" id="mad_mimi_signup_form2" method="post"><input name="utf8" type="hidden" value="✓"/><input name="authenticity_token" type="hidden" value="KadjOpU8fOQ1YEj2P1f1KImAyr81NDSM2m1l9jRGpfc=" />
+
+<div class="mimi_field required" >
+<input data-required-field="Nhập lại tên Bạn:" id="signup_name" name="signup[name]" placeholder="Tên Bạn:" type="text" style="font-size: 120%; Height: 33px;width:95%; background: rgba(255, 255, 255, 0.8); border: 0px;" /></div><br/>
+
+<div class="mimi_field required" >
+<input data-required-field="Nhập lại email" id="signup_email" name="signup[email]" placeholder="Email:" type="text" style="font-size: 120%; Height: 33px;width:95%; background: rgba(255, 255, 255, 0.8); border: 0px;" /></div><br/>
+
+<div class="mimi_field required" >
+<input data-required-field="Nhập lại điện thoại" id="signup_phone" name="signup[phone]" placeholder="Điện Thoại:" type="text" style="font-size: 120%; Height: 33px;width:95%; background: rgba(255, 255, 255, 0.8); border: 0px;" /></div><br/>
+
+<div style="display:none;">Chọn: <input type="radio" name="vp_city" id="vp_city_hcm" value="HCM" checked="checked" /><label for="vp_city_hcm">TpHCM</label> &nbsp <input type="radio" name="vp_city" id="vp_city_hn" value="HN" /><label for="vp_city_hn">Hà Nội</label> &nbsp <input type="radio" name="vp_city" id="vp_city_bd" value="BD"/><label for="vp_city_bd">Bình Dương</label>  &nbsp <input type="radio" name="vp_city" id="vp_city_hcm" value="HCM"/><label for="vp_city_hcm">Khác</label> </div>
+
+
+<div style="display:none;"><select id="signup_nvkd_name" name="signup[nvkd_name]"><option value="Admin" />Admin</select><input id="signup_nvkd_email" name="signup[nvkd_email]" placeholder="Email" value="hr@mediapro.vn" type="hidden" /><input id="signup_nvkd_phone" name="signup[nvkd_phone]" placeholder="Điện thoại" value="0936 111 576" type="hidden" /></div>
+
+<div style="height:10px"></div>
+<input class="submit" data-choose-list="↑ Choose a list" data-default-text="ĐÃ XONG" data-invalid-text="Sai, Nhập lại ↑" data-submitting-text="Sending…" id="webform_submit_button2" type="submit" value="XEM NGAY ›" title="Sign Up" />
+<div style="height:30px"></div>
+<input id="signup_capnhat" name="signup[capnhat]" type="hidden" value="http://thietkewebsite.mediapro.vn" />
+<input id="signup_website" name="signup[website]" type="hidden" value="www.mediapro.vn" />
+<input id="signup_tp" name="signup[tp]" type="hidden" value="Tp.Hồ Chí Minh"/>
+<input id="today_working_time_span" name="signup[today_working_time_span]" type="hidden" /><input type="hidden" id="khachhang_email_field" name="khachhang_email" placeholder="Email" />
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $checks = $(":radio");
+    $checks.on('click', function() {
+        var string = $checks.filter(":checked").map(function(){
+            if(this.value=="HN") 
+            var links=['Mai'];
+            if(this.value=="BD") 
+              var links=['Phạm']; 
+            if(this.value=="BMT") 
+              var links=['Phạm']; 
+             if(this.value=="HCM")
+            var links=['Phạm']; 
+            var random = Math.floor(Math.random()*links.length);
+            return links[random];       
+        }).get();
+        $('#signup_hoquanly').val(string);
+    });
+});
+
+$(document).ready(function(){
+    $checks = $(":radio");
+    $checks.on('click', function() {
+        var string = $checks.filter(":checked").map(function(){
+            if(this.value=="HN") 
+            var links=['Thanh'];
+            if(this.value=="BD") 
+              var links=['Na']; 
+            if(this.value=="BMT") 
+              var links=['Na']; 
+             if(this.value=="HCM")
+            var links=['Na']; 
+            var random = Math.floor(Math.random()*links.length);
+            return links[random];       
+        }).get();
+        $('#signup_tenquanly').val(string);
+    });
+});
+
+$(document).ready(function(){
+    $checks = $(":radio");
+    $checks.on('click', function() {
+        var string = $checks.filter(":checked").map(function(){
+            if(this.value=="HN") 
+            var links=['093 456 1727'];
+            if(this.value=="BD") 
+              var links=['0965 551 552']; 
+            if(this.value=="BMT") 
+              var links=['0965 551 552']; 
+             if(this.value=="HCM")
+            var links=['0965 551 552']; 
+            var random = Math.floor(Math.random()*links.length);
+            return links[random];       
+        }).get();
+        $('#signup_dtquanly').val(string);
+    });
+});
+
+$(document).ready(function(){
+    $checks = $(":radio");
+    $checks.on('click', function() {
+        var string = $checks.filter(":checked").map(function(){
+            if(this.value=="HN") 
+            var links=['hanoi@aothundep.com'];
+            if(this.value=="BD") 
+              var links=['info@aothundep.com']; 
+            if(this.value=="BMT") 
+              var links=['info@aothundep.com']; 
+             if(this.value=="HCM")
+            var links=['info@aothundep.com']; 
+            var random = Math.floor(Math.random()*links.length);
+            return links[random];       
+        }).get();
+        $('#signup_emailquanly').val(string);
+    });
+});
+
+$(document).ready(function(){
+    $checks = $(":radio");
+    $checks.on('click', function() {
+        var string = $checks.filter(":checked").map(function(){
+            return this.value;
+        }).get();
+        $('#signup_tp').val(string);
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+(function() {
+  var form = document.getElementById('mad_mimi_signup_form2'),
+      submit = document.getElementById('webform_submit_button2'),
+      validEmail = /.+@.+\..+/,
+      isValid;
+      
+  form.onsubmit = function(event) {
+    validate();
+    if(!isValid) {
+      revalidateOnChange();
+      return false;
+    }
+  };
+  
+  function validate() {
+    isValid = true;
+    emailValidation();
+    fieldAndListValidation();
+    updateFormAfterValidation();
+  }
+
+  function emailValidation() {
+    var email = document.getElementById('signup_email');
+    if(!validEmail.test(email.value)) {
+      textFieldError(email);
+      isValid = false;
+    } else {
+      removeTextFieldError(email);
+    }
+  }
+
+  function fieldAndListValidation() {
+    var fields = form.querySelectorAll('.mimi_field.required');
+    for(var i = 0; i < fields.length; ++i) {
+      var field = fields[i],
+          type  = fieldType(field);
+      if(type == 'checkboxes' || type == 'radio_buttons') {
+        checkboxAndRadioValidation(field);
+      } else {
+        textAndDropdownValidation(field, type);
+      }
+    }
+  }
+
+  function fieldType(field) {
+    var type = field.querySelectorAll('.field_type');
+    if(type.length > 0) {
+      return type[0].getAttribute('data-field-type');
+    } else if(field.className.indexOf('checkgroup') >= 0) {
+      return 'checkboxes';
+    } else {
+      return 'text_field';
+    }
+  }
+
+  function checkboxAndRadioValidation(field) {
+    var inputs   = field.getElementsByTagName('input'),
+        selected = false;
+    for(var i = 0; i < inputs.length; ++i) {
+      var input = inputs[i];
+      if((input.type == 'checkbox' || input.type == 'radio') && input.checked) selected = true;
+    }
+    if(selected) {
+      field.className = field.className.replace(/ invalid/g, '');
+    } else {
+      if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
+      isValid = false;
+    }
+  }
+
+  function textAndDropdownValidation(field, type) {
+    var inputs = field.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; ++i) {
+      var input = inputs[i];
+      if(input.name.indexOf('signup') >= 0) {
+        if(type == 'text_field') {
+          textValidation(input);
+        } else {
+          dropdownValidation(field, input);
+        }
+      }
+    }
+    htmlEmbedDropdownValidation(field);
+  }
+
+  function textValidation(input) {
+    if(input.id == 'signup_email') return;
+    var val = input.value;
+    if(val == '') {
+      textFieldError(input);
+      isValid = false;
+      return;
+    } else {
+      removeTextFieldError(input)
+    }
+  }
+
+  function dropdownValidation(field, input) {
+    var val = input.value;
+    if(val == '') {
+      if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
+      onSelectCallback(input);
+      isValid = false;
+      return;
+    } else {
+      field.className = field.className.replace(/ invalid/g, '');
+    }
+  }
+
+  function htmlEmbedDropdownValidation(field) {
+    var dropdowns = field.querySelectorAll('.mimi_html_dropdown');
+    for(var i = 0; i < dropdowns.length; ++i) {
+      var dropdown = dropdowns[i],
+          val      = dropdown.value;
+      if(val == '') {
+        if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
+        isValid = false;
+        dropdown.onchange = validate;
+        return;
+      } else {
+        field.className = field.className.replace(/ invalid/g, '');
+      }
+    }
+  }
+
+  function textFieldError(input) {
+    input.className   = 'required invalid';
+    input.placeholder = input.getAttribute('data-required-field');
+  }
+
+  function removeTextFieldError(input) {
+    input.className   = 'required';
+    input.placeholder = '';
+  }
+
+  function onSelectCallback(input) {
+    if(typeof Widget != 'undefined' && Widget.BasicDropdown != undefined) {
+      var dropdownEl = input.parentNode,
+          instances  = Widget.BasicDropdown.instances;
+      for(var i = 0; i < instances.length; ++i) {
+        var instance = instances[i];
+        if(instance.wrapperEl == dropdownEl) {
+          instance.onSelect = validate;
+        }
+      }
+    }
+  }
+
+  function updateFormAfterValidation() {
+    form.className   = isValid ? '' : 'mimi_invalid';
+    submit.value     = submitButtonText();
+    submit.disabled  = !isValid;
+    submit.className = isValid ? 'submit' : 'disabled';
+  }
+
+  function submitButtonText() {
+    var invalidFields = document.querySelectorAll('.invalid'),
+        text;
+    if(isValid || invalidFields == undefined) {
+      text = submit.getAttribute('data-default-text');
+    } else {
+      if(invalidFields.length > 1 || invalidFields[0].className.indexOf('checkgroup') == -1) {
+        text = submit.getAttribute('data-invalid-text');
+      } else {
+        text = submit.getAttribute('data-choose-list');
+      }
+    }
+    return text;
+  }
+
+  function revalidateOnChange() {
+    var fields = form.querySelectorAll(".mimi_field.required");
+    for(var i = 0; i < fields.length; ++i) {
+      var inputs = fields[i].getElementsByTagName('input');
+      for(var j = 0; j < inputs.length; ++j) {
+        inputs[j].onchange = validate;
+      }
+    }
+  }
+})();
+</script>
+
+</form>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>

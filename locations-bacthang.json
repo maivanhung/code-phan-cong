@@ -1,0 +1,83 @@
+[{
+    "id": "vp_city_hcm",
+    "value": "HCM",
+    "name": "Hồ Chí Minh",
+    "manager": {
+        "fullname": "Nguyễn Tuân",
+        "email": "tuan@aothunbonmua.com",
+        "phone": "0904 525 236"
+    },
+    "employees": [{
+				"id" : "Nguyễn Nữ",
+                "name" : "01 - Nữ",
+                "email" : "a1@aothunbonmua.com",
+                "phone" : "090 181 3826",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1O7E6w6rUWttkAyhOALb727WL7WzSw9eaD9lrGah55hM/viewform"
+    },
+    {
+				"id" : "Huỳnh Huân",
+                "name" : "02 - Huân",
+                "email" : "a2@aothunbonmua.com",
+                "phone" : "090 181 3616",
+                
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1NMS_X5P22tf0KsE4mxjChbUuW7Sz0xBmkxwFoGcDWGA/viewform"
+    },
+    {
+				"id" : "3",
+                "name" : "03",
+                "email" : "a3@aothunbonmua.com",
+                "phone" : "090 181 3626",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1Drby9M0tg022d1IHcCD0-H46_XN-xe1X3ZAU8JDpub4/viewform"
+    },
+    {
+				"id" : "Nguyễn Thông",
+                "name" : "04 - Thông",
+                "email" : "a4@aothunbonmua.com",
+                "phone" : "0901 813 836",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1TKVt4Sp9gITiMcTKj-DpmgKH7ij9Kv-p1Q_bIBTLvSs/viewform"
+    },
+    {
+ 				"id" : "5",
+                "name" : "05",
+                "email" : "a5@aothunbonmua.com",
+                "phone" : "0901 813 826",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1P7UoShimrofCA_pa-zMH4FBOB77ImI5lR6PSBJiqbtw/viewform"
+    },
+    {
+				"id" : "Hồng Hạnh",
+                "name" : "06 - Hạnh",
+                "email" : "a6@aothunbonmua.com",
+                "phone" : "0901 813 626",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1io0A4T7CLJ5LWhXEozz0O-YvZBAJ-xn16oNQiYzVtaU/viewform"
+    },
+    {
+				"id" : "7",
+                "name" : "07",
+                "email" : "a7@aothunbonmua.com",
+                "phone" : "0902 603 638",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1SqTVsfwOyGo9f3zg6gkGIHIpdT4AEpl2_bfdep5OH9k/viewform"
+    }]
+},{
+    "id": "vp_city_hn",
+    "value": "HN",
+    "name": "Hà Nội",
+    "manager": {
+        "fullname": "Mai Thanh",
+        "email": "hanoi@aothunbonmua.com",
+        "phone": "093 456 1727"
+    },
+    "employees": [{
+	"id" : "Ms Nghĩa",
+                "name" : "01 - Nghĩa",
+                "email" : "hanoi01@aothunbonmua.com",
+                "phone" : "0903 256 162",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1temjT5VadrAvX9_8ove880Gi4PF80_AdrJMdolrXZOU/viewform"
+    },
+    {
+	"id" : "Ms Tựu",
+                "name" : "03 - Tựu",
+                "email" : "hanoi03@aothunbonmua.com",
+                "phone" : "093 444 3135",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1SKN6Jzhic5i6uib0V4RXchRYEpyDSKRXGU9pBI_VyrM/viewform"
+    }]
+}]

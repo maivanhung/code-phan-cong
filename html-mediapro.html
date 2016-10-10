@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <title>index</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js" type="text/javascript"></script>
+ <script src="phancongnhanvien.js" type="text/javascript"></script>    
+
+<script>
+$(function(){
+ $( "#signup_sanpham" ).change(function() {
+  if($(this).val()=="Tổ Chức Sự Kiện"||$(this).val()=="")
+   $("#mad_mimi_signup_form").attr("action","https://madmimi.com/signups/subscribe/109804");
+  if($(this).val()=="Thiết Kế Website")
+   $("#mad_mimi_signup_form").attr("action","https://madmimi.com/signups/subscribe/118988");
+  if($(this).val()=="Đồng Phục")
+   $("#mad_mimi_signup_form").attr("action","https://madmimi.com/signups/subscribe/118983");
+  if($(this).val()=="MCS")
+   $("#mad_mimi_signup_form").attr("action","https://madmimi.com/signups/subscribe/199345");
+ });
+});
+</script>
+    
+<!--script src="js/phancongnhanvien.js" type="text/javascript"></script-->
+
+</head>
+<body>
+<!--iframe id="google_form_frame" src="https://docs.google.com/a/mediapro.vn/forms/d/e/1FAIpQLSfdx_QYnxdsrBUYfUr5oVfJ7BjW9AtqWwkddCUTwoTgE7_xSg/viewform" style="float: left; height: 550px; width: 100%;">Loading...</iframe-->
+
+        <div id="cityStore" style="display: none;">
+</div>
+<form action="https://madmimi.com/signups/subscribe/109804" id="mad_mimi_signup_form" method="post">
+
+            <div style="color: red; font-size: 110%; font-weight: bold; margin-bottom: 8px; margin-top: 8px;">
+                BƯỚC 1:  <div id="cityEncDiv">
+</div>
+<select id="signup_nvkd_name" name="signup[nvkd_name]" placeholder="Họ tên" style="width: 200px;"></select>
+                <input id="signup_nvkd_email" name="signup[nvkd_email]" placeholder="Email" style="width: 150px;" type="hidden" />
+                <input id="signup_nvkd_phone" name="signup[nvkd_phone]" placeholder="Điện thoại" style="width: 150px;" type="hidden" />
+                - <input class="field_type" data-field-type="dropdown" type="hidden" /><select class="mimi_html_dropdown" id="signup_website" name="signup[website]"><option value="">Chọn Nguồn:</option><option value="Hotline">- Hotline</option><option value="www.mediapro.vn">- Email/Web</option><option value="FB/Zalo/Viber">- Face/Zalo/Viber</option><option value="Office">- KH Tới VP</option><option value="Sale">- Account Tự Tìm</option><option value="Care">- Care/KH Cũ</option></select><input class="field_type" data-field-type="dropdown" type="hidden" />
+            </div>
+<div id="googleFormDiv">
+<iframe id="google_form_frame" src="" style="float: left; height: 550px; width: 50%;border: 0px;">Loading...</iframe>
+
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=account2%40mediapro.vn&amp;color=%23AB8B00&amp;src=account%40mediapro.vn&amp;color=%23182C57&amp;ctz=Asia%2FSaigon" style="border-width:0" width="48%" height="300" frameborder="0" scrolling="no"></iframe>
+
+
+</div>
+<div id="mainDiv" style="float: left; line-height: 2.5em; padding-left: 10px; width: 40%;">
+<div style="color: red; font-size: 150%; font-weight: bold; margin-bottom: 16px;">
+BƯỚC 2:</div>
+<!-- input type="hidden" id="dataUrl" value="data/locations.json"-->
+<input id="dataUrl" type="hidden" value="locations-mediaprovn.json" />
+        
+            <div class="mimi_field required" style="margin-bottom: 8px;">
+                <input class="field_type" data-field-type="dropdown" type="hidden" /><select class="mimi_html_dropdown" id="signup_xungho" name="signup[xungho]"><option value="">Xưng Hô</option><option value="anh">-Anh</option><option value="chị">-Chị</option></select><input class="field_type" data-field-type="dropdown" type="hidden" /> - <input id="signup_last_name" name="signup[last_name]" placeholder="Tên KH, Ko Ghi Họ" type="text" />
+<br />
+<input data-required-field="Sai Email" id="signup_email" name="signup[email]" placeholder="Email KH" type="text" /> - <input id="signup_phone" name="signup[phone]" placeholder="Điện Thoại KH" type="text" />
+
+            </div>
+<div id="customerEncDiv" style="margin-bottom: 8px;">
+                <input class="field_type" data-field-type="dropdown" type="hidden" />
+                <select class="mimi_html_dropdown" id="signup_sanpham" name="signup[sanpham]">
+                    <option value="">- Chọn Dịch Vụ:</option>
+                    <option value="Tổ Chức Sự Kiện">- 01: Tổ Chức Sự Kiện</option>
+                    <option value="Thiết Kế Website">- 02: Thiết Kế Website</option>
+                    <option value="Đồng Phục">- 03: Đồng Phục</option>
+                    <option value="MCS">- 04: MCS</option>
+                </select>
+                &nbsp;-&nbsp;
+                <span class="mimi_field required">
+               <input data-required-field="Ko có thì ghi cách" id="signup_quycach" name="signup[quycach]" placeholder="Quy cách/Ghi chú" type="text" /></span>
+            </div>
+<div id="managerEncDiv" style="margin-bottom: 8px;">
+                <input id="signup_tenquanly" name="signup[tenquanly]" placeholder="Họ tên quản lý" type="hidden" />
+                <input id="signup_dtquanly" name="signup[dtquanly]" placeholder="Điện thoại quản lý" type="hidden" />
+                <input id="signup_emailquanly" name="signup[emailquanly]" placeholder="Email quản lý" type="hidden" />
+                <input id="signup_tp" name="signup[tp]" type="hidden" />
+                <input id="signup_hoquanly" name="signup[hoquanly]" type="hidden" />
+                <input id="today_working_time_span" name="signup[today_working_time_span]" type="hidden" />
+                <input id="khachhang_email_field" name="khachhang_email" placeholder="Email" type="hidden" />
+            </div>
+<input class="submit" data-choose-list="↑ Choose a list" data-default-text="Loading..." data-invalid-text="Thiếu Thông Tin Kìa, Nhập Lại Nhé ↑" data-submitting-text="Sending…" id="webform_submit_button" style="-moz-box-shadow: 0 0 1px red; -webkit-box-shadow: 0 0 1px red; background-image: url(http://1.bp.blogspot.com/-J7Ks6zwmV-Q/Um47XJPBuFI/AAAAAAAAFQ0/pjDvTCrOgqc/s132/ecke.gif); background: red; border-radius: 2px; border: 1px solid #ffffff; box-shadow: 0 0 1px red; color: white; font-size: 18px; padding: 10px 20px;" title="Sign Up" type="submit" value="GỬI &amp; BÁO CHO ACCOUNT ›" />
+            <input id="signup_capnhat" name="signup[capnhat]" type="hidden" value="Ok" />
+
+    </div>
+</form>
+<script type="text/javascript">
+        (function() {
+            var form = $('#mad_mimi_signup_form')[0];
+            var submit = $('#webform_submit_button')[0];
+            var validEmail = /.+@.+\..+/;
+            var isValid;
+
+            $('#mad_mimi_signup_form').submit(function(event) {
+                validate();
+                if(!isValid) {
+                    revalidateOnChange();
+                    return false;
+                }
+            });
+
+            function validate() {
+                isValid = true;
+                validateEmail();
+                validateFieldsAndList();
+                updateFormAfterValidation();
+            }
+
+            function validateEmail() {
+                var email = $('#signup_email')[0];
+                if (!validEmail.test(email.value)) {
+                    textFieldError(email);
+                    isValid = false;
+                } else {
+                    removeTextFieldError(email);
+                }
+            }
+
+            function validateFieldsAndList() {
+                var fields = form.querySelectorAll('.mimi_field.required');
+                for(var i = 0; i < fields.length; ++i) {
+                    var field = fields[i], type = fieldType(field);
+                    if (type == 'checkboxes' || type == 'radio_buttons') {
+                        checkboxAndRadioValidation(field);
+                    } else {
+                        textAndDropdownValidation(field, type);
+                    }
+                }
+            }
+
+            function fieldType(field) {
+              var type = field.querySelectorAll('.field_type');
+              if(type.length > 0) {
+                return type[0].getAttribute('data-field-type');
+              } else if(field.className.indexOf('checkgroup') >= 0) {
+                return 'checkboxes';
+              } else {
+                return 'text_field';
+              }
+            }
+
+            function checkboxAndRadioValidation(field) {
+              var inputs   = field.getElementsByTagName('input'),
+                  selected = false;
+              for(var i = 0; i < inputs.length; ++i) {
+                var input = inputs[i];
+                if((input.type == 'checkbox' || input.type == 'radio') && input.checked) selected = true;
+              }
+              if(selected) {
+                field.className = field.className.replace(/ invalid/g, '');
+              } else {
+                if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
+                isValid = false;
+              }
+            }
+
+            function textAndDropdownValidation(field, type) {
+              var inputs = field.getElementsByTagName('input');
+              for(var i = 0; i < inputs.length; ++i) {
+                var input = inputs[i];
+                if(input.name.indexOf('signup') >= 0) {
+                  if(type == 'text_field') {
+                    textValidation(input);
+                  } else {
+                    dropdownValidation(field, input);
+                  }
+                }
+              }
+              htmlEmbedDropdownValidation(field);
+            }
+
+            function textValidation(input) {
+              if(input.id == 'signup_email') return;
+              var val = input.value;
+              if(val == '') {
+                textFieldError(input);
+                isValid = false;
+                return;
+              } else {
+                removeTextFieldError(input)
+              }
+            }
+
+            function dropdownValidation(field, input) {
+              var val = input.value;
+              if(val == '') {
+                if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
+                onSelectCallback(input);
+                isValid = false;
+                return;
+              } else {
+                field.className = field.className.replace(/ invalid/g, '');
+              }
+            }
+
+            function htmlEmbedDropdownValidation(field) {
+              var dropdowns = field.querySelectorAll('.mimi_html_dropdown');
+              for(var i = 0; i < dropdowns.length; ++i) {
+                var dropdown = dropdowns[i],
+                    val      = dropdown.value;
+                if(val == '') {
+                  if(field.className.indexOf('invalid') == -1) field.className += ' invalid';
+                  isValid = false;
+                  dropdown.onchange = validate;
+                  return;
+                } else {
+                  field.className = field.className.replace(/ invalid/g, '');
+                }
+              }
+            }
+
+            function textFieldError(input) {
+              input.className   = 'required invalid';
+              input.placeholder = input.getAttribute('data-required-field');
+            }
+
+            function removeTextFieldError(input) {
+              input.className   = 'required';
+              input.placeholder = '';
+            }
+
+            function onSelectCallback(input) {
+              if(typeof Widget != 'undefined' && Widget.BasicDropdown != undefined) {
+                var dropdownEl = input.parentNode,
+                    instances  = Widget.BasicDropdown.instances;
+                for(var i = 0; i < instances.length; ++i) {
+                  var instance = instances[i];
+                  if(instance.wrapperEl == dropdownEl) {
+                    instance.onSelect = validate;
+                  }
+                }
+              }
+            }
+
+            function updateFormAfterValidation() {
+              form.className   = isValid ? '' : 'mimi_invalid';
+              submit.value     = submitButtonText();
+              submit.disabled  = !isValid;
+              submit.className = isValid ? 'submit' : 'disabled';
+            }
+
+            function submitButtonText() {
+              var invalidFields = document.querySelectorAll('.invalid'),
+                  text;
+              if(isValid || invalidFields == undefined) {
+                text = submit.getAttribute('data-default-text');
+              } else {
+                if(invalidFields.length > 1 || invalidFields[0].className.indexOf('checkgroup') == -1) {
+                  text = submit.getAttribute('data-invalid-text');
+                } else {
+                  text = submit.getAttribute('data-choose-list');
+                }
+              }
+              return text;
+            }
+
+            function revalidateOnChange() {
+                $('#mad_mimi_signup_form').find(".mimi_field.required").each(function(i, grp) {
+                    $(grp).find(':input').each(function(i, el) {
+                        $(el).on('change', validate);
+                    });
+                });
+            }
+        })();
+    </script>
+</body>
+</html>

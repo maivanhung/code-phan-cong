@@ -1,0 +1,100 @@
+[{
+    "id": "vp_city_hcm",
+    "value": "HCM",
+    "name": "Hồ Chí Minh",
+    "manager": {
+        "fullname": "Richard",
+        "email": "richard@mediapro.vn",
+        "phone": "0936111576"
+    },
+    "employees": [{
+        "id": "Hoạ",
+        "name": "Account - Hoạ",
+        "email": "account@mediapro.vn",
+        "phone": "0971 813 813",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1GcEVroKwJCmvXSrA-kaxh81TXW9MdBtDhing8QkUJD0/viewform"
+    },
+    {
+        "id": "Thuỳ Dương",
+        "name": "Account 2 - Dương",
+        "email": "account2@mediapro.vn",
+        "phone": "0971 813 813",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1dKULxPBtGyyVtpQJoIXXk5X7yerlg7MjOLLNtuajW3U/viewform"
+    },
+    {
+        "id": "xx",
+        "name": "Account 3 - x",
+        "email": "account3@mediapro.vn",
+        "phone": "0971 813 813",
+        "google_form_url": "https://docs.google.com/a/mediapro.vn/forms/d/1xYQw35gNPAdTvpgjCobxxwlLXGUpscNpuzB6rgx81TI/viewform"
+    }]
+},{
+    "id": "vp_city_bd",
+    "value": "BD",
+    "name": "Bình Dương",
+    "manager": {
+        "fullname": "Phạm Na",
+        "email": "info@aothundep.com",
+        "phone": "0965 551 552"
+    },
+    "employees": [{
+        "id": "Nam",
+        "name": "01 - Nam",
+        "email": "binhduong@aothundep.com",
+        "phone": "0948 636 881",
+        "google_form_url": ""
+    },
+    {
+        "id": "Nam",
+        "name": "02 - Nam",
+        "email": "binhduong@aothundep.com",
+        "phone": "0948 636 881",
+        "google_form_url": ""
+    }]
+},{
+    "id": "vp_city_bmt",
+    "value": "BMT",
+    "name": "Buôn Mê Thuột",
+    "manager": {
+        "fullname": "Phạm Na",
+        "email": "info@aothundep.com",
+        "phone": "0965 551 552"
+    },
+    "employees": [{
+        "id": "Tuấn",
+        "name": "01 - Tuấn",
+        "email": "buonmethuot@aothundep.com",
+        "phone": "0977 27 77 99",
+        "google_form_url": ""
+    },
+    {
+        "id": "Tuấn",
+        "name": "02 - Tuấn",
+        "email": "buonmethuot@aothundep.com",
+        "phone": "0977 27 77 99",
+        "google_form_url": ""
+    }]
+},{
+    "id": "vp_city_hn",
+    "value": "HN",
+    "name": "Hà Nội",
+    "manager": {
+        "fullname": "Mai Thanh",
+        "email": "hanoi@aothundep.com",
+        "phone": "093 456 1727"
+    },
+    "employees": [{
+        "id": "Nghĩa",
+        "name": "01 - Nghĩa",
+        "email": "hanoi01@aothundep.com",
+        "phone": "0903 256 162",
+        "google_form_url": ""
+    },
+    {
+        "id": "Tựu",
+        "name": "03 - Tựu",
+        "email": "hanoi03@aothundep.com",
+        "phone": "093 444 3135",
+        "google_form_url": ""
+    }]
+}]
